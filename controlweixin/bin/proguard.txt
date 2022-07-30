@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:43
+-keep class com.tdr.controlweixin.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.tdr.controlweixin.WxMainService { <init>(...); }
+

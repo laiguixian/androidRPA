@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="40dp"
+    android:layout_height="235dp"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/makevideobt"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:textSize="8px"
+        android:text="@string/makevideobttext"/>
+    <CheckBox
+        android:id="@+id/autosendchk"
+        android:layout_width="40dp"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:layout_height="30dp"
+        android:textSize="15sp"
+        android:checked="false"
+        android:text="@string/autosendchktext"/>
+    <Button 
+        android:id="@+id/sendvideobt"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:textSize="8px"
+        android:text="@string/sendvideobttext"/>
+    <Button 
+        android:id="@+id/exitbt"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:textSize="8px"
+        android:text="@string/exitbttext"/>
+    <TextView android:id="@+id/statustv"
+        android:layout_width="40dp"
+        android:layout_height="75dp"
+        android:textSize="8px"
+        android:text=""/><!-- 40dp -->
+    <SurfaceView
+        android:id="@+id/videorecordview"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="3dp" />
+    
+</LinearLayout>
