@@ -1,0 +1,3 @@
+jspSmartUpload.jar用于文件上传和下载等操作
+jxl.jar用于excel操作
+sqljdbc4.jar是Sqlserver驱动（在版本：2008 R2下使用正常）
